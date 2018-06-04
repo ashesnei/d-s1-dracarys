@@ -1,0 +1,444 @@
+/*  GLOBAL:
+Estilos que se aplican a toda la página */
+
+body, html {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Clase admin para aislar elementos y señalarles
+
+.temp {
+  color: lightgray;
+  font-weight: bolder;
+  border: 1px dotted lightgray;
+  text-align: center;
+  height: 500%;
+}
+
+*/
+
+/*  GLOBAL:
+Pinta los links de 'gold' al pasar el puntero por cima */
+
+.fab:hover, .fas:hover, a:hover {
+  color: gold !important;
+}
+
+
+/* BODY:
+Caixas (boxes) principales */
+
+.outter {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.principal {
+  /* Esta clase es usada en todas las boxes principales
+    para establecer márgenes y facilitar la organización
+    del contenido interno */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px 0px 15px;
+}
+
+.adjust-header-outter {
+  /* Esta clase es para ajustar en algunos elementos
+  el ancho y alto del box. */
+  height: 94vw;
+  max-height: 600px;
+}
+
+.outter-header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dracarys {
+  height: 50px;
+  width: auto;
+  align-items: center;
+}
+
+/* Este código altera el logo principal al pasarse
+  el ratón por cima :P
+
+.boxlogo:hover img {
+  transform: scale(2.15) translate(0px,10px);
+  transition: transform .25s ease;
+  background: #2B988B;
+}
+*/
+
+.boxlogo {
+  height: 60px;
+  width: auto;
+  background: rgb(34,160,146,.95);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 45px;
+  background: rgb(57,218,200,.9);
+}
+
+.menu-item {
+  list-style: none;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 45px;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* estos códigos son para producir un offset en los
+  links, para que lleven exactamente el inicio
+  del contenido.
+  Pero no están funcionando por algún conflicto con
+  la position de los íconos de los perfiles.
+  Para probarlos, cambiar el <nav> para:
+
+  <nav>
+    <ul class="menu-item">
+        <li class="item uppercase"><a href="#equipo-target">Equipo</a></li>
+        <li class="item uppercase"><a href="#who-target">Quiénes somos</a></li>
+        <li class="item uppercase"><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+#equipo, #who {
+  position: relative;
+}
+
+#equipo a, #who a {
+  position: absolute;
+  left: 0px;
+  top: -35px;
+}
+*/
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: -1;
+  align-items: center;
+  background: #101010;
+}
+
+.foto img {
+  width: 100%;
+  max-width: 636px;
+  opacity: 0.8;
+}
+
+.title-main {
+  margin-top: 30px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal h2 {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px;
+  color: rgb(34,160,146);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+/* BODY:
+Define las propriedades de la caja (box) LEMA */
+
+#lema {
+  height: 20px;
+}
+
+.box-lema {
+  background: rgb(255,255,255,.9);
+  height: auto;
+  width: auto;
+  padding: 15px;
+  position: relative;
+  transform: translate(0px, -30px);
+}
+
+.box-lema h1 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* Clases específicas de la parte Equipo */
+
+.equipo-txt p {
+  text-align: center;
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.equipo-txt h3 {
+  font-family: 'Rubik', sans-serif;
+  margin: 30px 0px 0px 0px;
+  color: #099D8D;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.equipo-txt h4 {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px;
+  color: #099D8D;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid white;
+  position: relative;
+  transform: translate(40vw, -120%);
+  margin-bottom: -40px;
+  z-index: 0px;
+}
+
+
+#about {
+  background: #efefef;
+  margin: 30px -15px 0px -15px;
+  padding: 30px 0px 45px 0px;
+}
+
+/* Clases específicas de la parte Quiénes somos */
+
+.who {
+  text-align: center;
+}
+
+.who .title-main {
+  margin-bottom: 30px;
+}
+
+.photoprofile {
+  border: 5px solid #dcdcdc;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.member h3 {
+  margin:0 0 15 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line: 45px;
+}
+
+.member p {
+  font-family: 'Open Sans', sans-serif;
+  color: #54585A;
+  font-size: 16px;
+  line: 24px;
+}
+
+.listaiconos {
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #099d8d;
+  margin: 0;
+
+}
+
+.fab, .fas {
+   color: #099d8d;
+}
+
+.listaiconos li::before {
+  content: " ∙ ";
+  margin: 0 10px;
+  padding-bottom: 45px;
+}
+
+.listaiconos li:first-child::before {
+    content: "";
+}
+
+
+/* CONTACTO:
+Clases relacionadas a la página Contacto */
+
+.contacto-txt {
+  margin-top: 15px;
+}
+
+.contacto-txt p {
+  text-align: center;
+  margin: 0;
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* CONTACTO:
+Clases relacionadas al formulario */
+
+.forms {
+  flex-direction: column;
+  display: flex;
+  color: #54585A;
+}
+
+.forms h4 {
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+  margin: 30px 0px 60px 0px;
+}
+
+.forms p {
+  text-align: left;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 19px;
+}
+
+.bright {
+  color: rgb(34,160,146);
+  font-size: 1rem;
+}
+
+.form1 {
+  border: 1px solid lightgray;
+  min-height: 15px;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 15px 15px 0px;
+  line-height: 22px;
+  }
+
+.big {
+  min-height: 70px;
+}
+
+::placeholder {
+color: lightgray;
+}
+
+input[type=text], select {
+color: #54585A;
+}
+
+input[type=submit] {
+  background: rgb(34,160,146);
+  height: 45px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 15px 0px 60px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER:
+*/
+
+.footer {
+  font-size: 12px;
+  padding-top: 30px;
+  width: 100vw;
+  border-top: 1px solid lightgray;
+  color: lightgray;
+  text-align: center;
+  margin-left: -15px;
+
+}
+
+.footer img {
+  width: 30%;
+}
+
+.footer-nav .menu-item a {
+  color: #54585A;
+}
+
+.footer-nav .menu-item {
+  display: block;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 20px 0px 30px 0px;
+  line-height: 24px;
+  height: 80px;
+}
+
+.footer-img img {
+  width: 115.9px;
+  height: 45px;
+  margin-bottom: 45px;
+}
