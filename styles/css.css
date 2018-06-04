@@ -79,15 +79,19 @@ Caixas (boxes) principales */
   align-items: center;
 }
 
-/* Este código altera el logo principal al pasarse
-  el ratón por cima :P
+/* Estos dos código alteran el logo principal al pasarse
+  el ratón por cima :P */
 
 .boxlogo:hover img {
-  transform: scale(2.15) translate(0px,10px);
+  transform: scale(2.15) translate(0px,1px);
   transition: transform .25s ease;
-  background: #2B988B;
 }
-*/
+
+.boxlogo:hover {
+  height: 140px;
+}
+
+/* ------------------------------------------------- */
 
 .boxlogo {
   height: 60px;
@@ -236,14 +240,18 @@ Define las propriedades de la caja (box) LEMA */
   line-height: 45px;
 }
 
+.contenedor-triangle {
+  display: flex;
+  justify-content: center;
+  margin: -40px 0px 40px 0px;
+}
+
 .triangle {
   width: 0;
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-top: 40px solid white;
-  position: relative;
-  transform: translate(40vw, -120%);
   margin-bottom: -40px;
   z-index: 0px;
 }
