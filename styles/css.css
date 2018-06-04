@@ -209,6 +209,7 @@ Define las propriedades de la caja (box) LEMA */
     font-size: 18px;
     font-weight: 500;
     line-height: 25px;
+    text-align: center;
 }
 
 /* Clases específicas de la parte Equipo */
