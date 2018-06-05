@@ -6,6 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contacto</title>
   <link rel="stylesheet" href="styles/css.css">
+    <link rel="stylesheet" href="styles/contacto-main.css">
+    <link rel="stylesheet" href="styles/css.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/principal-main.css">
+    <link rel="stylesheet" href="styles/pcontacto-main.css">
+    <link rel="stylesheet" href="styles/footer.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
 </head>
 <body>
@@ -48,19 +54,20 @@
 <div class="forms">
 <h4>Todos los campos marcados con <span class="bright">*</span> son obligatorios.</h4>
 
-<form>
+<form action="" method="post">
 
   <label for="form-name"><p>Nombre completo<span class="bright">*</span></p></label>
-  <input class="form1" type="text" id="form-name" name="name" placeholder="Nombre...">
+  <input class="form1" type="text" id="form-name" name="name" placeholder="Nombre..." required>
 
   <label for="form-mail"><p>Email<span class="bright">*</span></p></label>
-  <input class="form1" type="text" id="form-mail" name="mail" placeholder="nombre.apellidos@mail.com">
+  <input class="form1" type="text" id="form-mail" name="mail" placeholder="nombre.apellidos@mail.com" required>
 
   <label for="form-tel"><p>Teléfono</p></label>
   <input class="form1" type="text" id="form-tel" name="tel" placeholder="Ex. 123456789">
 
   <label for="form-msg"><p>Mensaje <span class="bright">*</span></p></label>
-  <input class="form1 big" type="text" id="form-msg" name="msg" placeholder="¿Qué necesitas?">
+
+  <textarea class="form1 big" id="form-msg" name="msg" rows="4" placeholder="¿Qué necesitas?" required></textarea>
 
 <div class="button-send">
     <input class="uppercase" type="submit" value="Enviar">
