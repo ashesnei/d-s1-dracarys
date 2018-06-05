@@ -1,0 +1,85 @@
+
+.contacto-txt {
+  margin-top: 15px;
+}
+
+.contacto-txt p {
+  text-align: center;
+  margin: 0;
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* CONTACTO:
+Clases relacionadas al formulario */
+
+.forms {
+  flex-direction: column;
+  display: flex;
+  color: #54585A;
+}
+
+.forms h4 {
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+  margin: 30px 0px 60px 0px;
+}
+
+.forms p {
+  text-align: left;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 19px;
+}
+
+.bright {
+  color: rgb(34,160,146);
+  font-size: 1rem;
+}
+
+.form1 {
+  border: 1px solid lightgray;
+  min-height: 15px;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 15px 15px 0px;
+  line-height: 22px;
+  }
+
+.big {
+  min-height: 70px;
+}
+
+::placeholder {
+color: lightgray;
+}
+
+input[type=text], select {
+color: #54585A;
+}
+
+input[type=submit] {
+  background: rgb(34,160,146);
+  height: 45px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 15px 0px 60px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
