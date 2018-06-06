@@ -50,3 +50,50 @@
   height: 45px;
   background: rgb(57,218,200,.9);
 }
+
+
+@media all and (min-width:768px){
+
+.outter-header {
+  display: inline-flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+}
+.menu-item{
+justify-content: flex-end;
+margin-right: 45px;
+
+}
+.item {
+  margin: 0 0 0 20px;
+}
+.box {
+  height: 60px;
+  background-color: rgb(34,160,146,.95);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.boxlogo {
+  padding-left: 45px;
+}
+}
+
+.boxlogo:hover img {
+  transform: scale(2.15) translate(20px,12px);
+  transition: transform .25s ease;
+}
+
+.outter-header:hover {
+  height: 165px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+
+}
+/*
+@media all and (min-width:1200px){
+
+boxlogo:hover --PARA VERSION DESKTOP */
