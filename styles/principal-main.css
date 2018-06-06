@@ -34,6 +34,9 @@
   font-size: 16px;
   line-height: 24px;
 }
+.equipo-txt h2 {
+  margin-top: 35px;
+}
 
 .equipo-txt h3 {
   font-family: 'Rubik', sans-serif;
@@ -116,6 +119,42 @@
   padding-bottom: 45px;
 }
 
+.border-bottom {
+
+  border-bottom: 1px solid lightgray;
+
+}
+
+
 .listaiconos li:first-child::before {
     content: "";
+}
+@media all and (min-width: 768px) {
+
+.box-lema {
+  width: 441px;
+  margin-left: 45px;
+  padding: 15px 30px 15px 30px;
+  transform: translate(0px, -62px);
+}
+.equipo-txt {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+/* FYD EN FLEX? */
+
+.contenedor-triangle {
+  display: inline-flex;
+/* CSS PARA TABLET */
+}
+
+
+
+
+
+
+
+
+
 }

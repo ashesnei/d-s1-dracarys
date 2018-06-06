@@ -78,20 +78,29 @@ margin-right: 45px;
 
 .boxlogo {
   padding-left: 45px;
+  height: 60px;
 }
 }
 
-.boxlogo:hover img {
+/* .boxlogo:hover img {
   transform: scale(2.15) translate(20px,12px);
   transition: transform .25s ease;
-}
+    z-index: 1;
+    height: 100%;
+} */
 
-.outter-header:hover {
+.outter-header:hoover {
   height: 165px;
   width: 100%;
   position: absolute;
   z-index: 0;
+}
 
+.box:hover {
+  height: 165px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 /*
 @media all and (min-width:1200px){
