@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 .contacto-txt {
   margin-top: 15px;
@@ -18,6 +21,8 @@ Clases relacionadas al formulario */
   flex-direction: column;
   display: flex;
   color: #54585A;
+  width: 100%;
+
 }
 
 .forms h4 {
@@ -39,14 +44,23 @@ Clases relacionadas al formulario */
   font-size: 1rem;
 }
 
+#contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  max-width: 442px;
+}
+
 .form1 {
   border: 1px solid lightgray;
   min-height: 15px;
   text-align: left;
   font-size: 16px;
-  width: 95%;
+  width: 90%;
   padding: 15px;
-  margin: 5px 15px 15px 0px;
+  margin: 5px 0px 15px 0px;
   line-height: 22px;
   }
 
@@ -65,13 +79,10 @@ color: #54585A;
 input[type=submit] {
   background: rgb(34,160,146);
   height: 45px;
-  width: 200px;
+  width: 100%;
   border-radius: 5px;
   text-align: center;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   margin: 15px 0px 60px 0px;
   font-size: 16px;
@@ -80,6 +91,76 @@ input[type=submit] {
 
 .button-send {
   display: flex;
-  align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+@media all and (min-width: 768px) {
+
+.principal {
+  width: 442px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* FIXME: ALINEAR A LA DERECHA EL BOTON SUBMIT!
+Solo funciona añadiendo un margin right negativo al input
+de -385px al mediaquery min768
+y -790px al mediaquery min1200
+ */
+.button-send {
+  margin: 0;
+  width: 206px;
+}
+
+input[type=submit] { /* FEO FEO FEO */
+  margin-right: -385px;
+}
+
+}
+
+@media all and (min-width: 1200px) {
+
+.principal {
+  width: 601px;
+  max-width: 601px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form1 {
+  width: 100%;
+}
+
+.forms {
+  flex-direction: column;
+  display: flex;
+}
+
+.organizer_inline {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-mail {
+  width: 395px;
+  box-sizing: border-box;
+}
+
+.form-tel {
+  width: 162px;
+  box-sizing: border-box;
+}
+
+.order_label_mail { order: 1; margin-right: 44px;}
+.order_input_mail { order: 3; margin-right: 44px; }
+.order_label_tel { order: 2; }
+.order_input_tel { order: 4; }
+
+input[type=submit] { /* FEO FEO FEO */
+  margin-right: -790px;
+}
+
 }
