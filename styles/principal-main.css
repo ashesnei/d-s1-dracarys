@@ -166,10 +166,49 @@
 .contenedor-triangle {
 position: absolute;
 left: 47%;
-/* CSS PARA TABLET */
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description-member {
+  text-align: left;
+  max-width: 70vw;
+  margin-right:
+}
+.listaiconos {
+  justify-content: left;
+}
+.anna, .diana {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: right;
+}
+.description-left {
+  text-align: right;
+  align-items: flex-start;
+}
+.container--icons-left {
+  text-align: right;
+}
+.listaiconos-left {
+  text-align: right;
+}
+.photoprofile {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 
+
+
+}
+
+/* CSS PARA TABLET */
 
 
 
