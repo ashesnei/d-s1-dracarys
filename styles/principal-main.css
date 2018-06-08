@@ -17,7 +17,7 @@
   width: auto;
   padding: 15px;
   position: relative;
-  transform: translate(0px, -30px);
+  transform: translateY(-49px);
 }
 
 .box-lema h1 {
