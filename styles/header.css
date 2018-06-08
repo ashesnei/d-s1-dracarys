@@ -46,7 +46,7 @@
 .boxlogo {
   height: 60px;
   width: auto;
-  background: rgb(34,160,146,.95);
+  background: rgba(34,160,146,.95);
   justify-content: center;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@
 .box {
   width: 100%;
   height: 45px;
-  background: rgb(57,218,200,.9);
+  background: rgba(57,218,200,.9);
 }
 
 
@@ -78,7 +78,7 @@ margin-right: 45px;
 
 .box {
   height: 60px;
-  background-color: rgb(34,160,146,.95);
+  background-color: rgba(34,160,146,.95);
   display: flex;
   align-items: center;
   justify-content: flex-end;
