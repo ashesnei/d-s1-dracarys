@@ -170,13 +170,15 @@ left: 47%;
 
 .member {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
 }
 .description-member {
   text-align: left;
   max-width: 70vw;
-  margin-right:
+
+
 }
 .listaiconos {
   justify-content: left;
@@ -184,7 +186,6 @@ left: 47%;
 .anna, .diana {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
   justify-content: flex-start;
   text-align: right;
 }
@@ -196,7 +197,10 @@ left: 47%;
   text-align: right;
 }
 .listaiconos-left {
-  text-align: right;
+  justify-content: flex-start;
+}
+.listaiconos-right {
+  justify-content: flex-end;
 }
 .photoprofile {
   margin-left: 30px;
@@ -205,8 +209,6 @@ left: 47%;
 
 
 
-
-}
 
 /* CSS PARA TABLET */
 
