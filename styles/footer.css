@@ -5,11 +5,13 @@
 .footer {
   font-size: 12px;
   padding-top: 30px;
-  width: 100vw;
+  width: 100%;
   color: lightgray;
   text-align: center;
-  margin-left: -15px;
-
+}
+  /* margin-left: -15px; */
+.principal-footer {
+  margin-bottom: 45px;
 }
 
 .footer img {
@@ -29,7 +31,7 @@
   padding: 0px;
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 100%;
   margin: 20px 0px 30px 0px;
   line-height: 24px;
   height: 80px;
@@ -44,7 +46,6 @@
 .footer-img img {
   width: 115.9px;
   height: 45px;
-  margin-bottom: 45px;
 }
 
 @media all and (min-width: 768px)
@@ -53,6 +54,7 @@
 .footer-nav {
   align-items: flex-end;
   text-align: right;
+  margin-top: 25px;
   /* padding-right: 0;
   margin-right: 0; */
 }

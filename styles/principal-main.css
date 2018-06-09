@@ -232,12 +232,11 @@ left: 47%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 601px;
+  margin-left: 22vw;
 }
 .dracarys {
   display: inline;
-}
-.box-lema {
-width: 601px;
 }
 
 .fyd-fortalezas {
