@@ -146,6 +146,19 @@
   border: 1px solid red;
   width: 50%;
   padding: 0 15px 0 15px;
+}
+
+}
+/*añadido por Aylén*/
+@media all and (min-width: 1200px) {
+
+  .box-lema {
+    width: 601px;
+  }
+  .fyd {
+    padding-left: 22px;
+    padding-right: 22px;
+}
 
 }
 
