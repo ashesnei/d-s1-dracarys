@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .contacto-txt {
@@ -22,7 +22,6 @@ Clases relacionadas al formulario */
   display: flex;
   color: #54585A;
   width: 100%;
-
 }
 
 .forms h4 {
@@ -40,7 +39,7 @@ Clases relacionadas al formulario */
 }
 
 .bright {
-  color: rgb(34,160,146);
+  color: rgb(34, 160, 146);
   font-size: 1rem;
 }
 
@@ -62,22 +61,22 @@ Clases relacionadas al formulario */
   padding: 15px;
   margin: 5px 0px 15px 0px;
   line-height: 22px;
-  }
+}
 
 .big {
   min-height: 70px;
 }
 
 ::placeholder {
-color: lightgray;
+  color: lightgray;
 }
 
 input[type=text], select {
-color: #54585A;
+  color: #54585A;
 }
 
 input[type=submit] {
-  background: rgb(34,160,146);
+  background: rgb(34, 160, 146);
   height: 45px;
   border-radius: 5px;
   text-align: center;
@@ -90,80 +89,78 @@ input[type=submit] {
 
 .send_container {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
 .button-send {
-    text-align: right;
+  text-align: right;
   width: 100%;
 }
 
 @media all and (min-width: 768px) {
-
-.principal {
-  width: 442px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* FIXME: ALINEAR A LA DERECHA EL BOTON SUBMIT!
+  .principal {
+    width: 442px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* FIXME: ALINEAR A LA DERECHA EL BOTON SUBMIT!
 Solo funciona añadiendo un margin right negativo al input
 de -238px al mediaquery min768
 y -397px al mediaquery min1200
  */
-.button-send {
-  margin: 0;
-  width: 206px;
-}
-
-.form1 {
-  width: 442px;
-}
-
-input[type=submit] { /* FEO FEO FEO */
-  /* margin-right: -238px; */
-}
-
+  .button-send {
+    margin: 0;
+    width: 206px;
+  }
+  .form1 {
+    width: 442px;
+  }
+  input[type=submit] {
+    /* FEO FEO FEO */
+    /* margin-right: -238px; */
+  }
 }
 
 @media all and (min-width: 1200px) {
-
-.principal {
-  width: 601px;
-  max-width: 601px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.form1 {
-  width: 100%;
-}
-
-.forms {
-  flex-direction: column;
-  display: flex;
-}
-
-.organizer_inline {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.form-mail {
-  width: 395px;
-  box-sizing: border-box;
-}
-
-.form-tel {
-  width: 162px;
-  box-sizing: border-box;
-}
-
-.order_label_mail { order: 1; margin-right: 44px;}
-.order_input_mail { order: 3; margin-right: 44px; }
-.order_label_tel { order: 2; }
-.order_input_tel { order: 4; }
-
+  .principal {
+    width: 601px;
+    max-width: 601px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .form1 {
+    width: 100%;
+  }
+  .forms {
+    flex-direction: column;
+    display: flex;
+  }
+  .organizer_inline {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .form-mail {
+    width: 395px;
+    box-sizing: border-box;
+  }
+  .form-tel {
+    width: 162px;
+    box-sizing: border-box;
+  }
+  .order_label_mail {
+    order: 1;
+    margin-right: 44px;
+  }
+  .order_input_mail {
+    order: 3;
+    margin-right: 44px;
+  }
+  .order_label_tel {
+    order: 2;
+  }
+  .order_input_tel {
+    order: 4;
+  }
 }

@@ -1,113 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contacto</title>
   <link rel="stylesheet" href="styles/css.css">
-    <link rel="stylesheet" href="styles/contacto-main.css">
-    <link rel="stylesheet" href="styles/css.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/principal-main.css">
-    <link rel="stylesheet" href="styles/pcontacto-main.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/contacto-main.css">
+  <link rel="stylesheet" href="styles/css.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/principal-main.css">
+  <link rel="stylesheet" href="styles/pcontacto-main.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
 </head>
+
 <body>
 
 
-<header>
-  <div class="outter adjust-header-outter">
-    <div class="outter-header">
+  <header>
+    <div class="outter adjust-header-outter">
+      <div class="outter-header">
 
-    <div class="boxlogo">
-      <img class="dracarys" src="images/DracarysLogo.png" alt="Logo de Dracarys">
+        <div class="boxlogo">
+          <img class="dracarys" src="images/DracarysLogo.png" alt="Logo de Dracarys">
+        </div>
+
+        <div class="box">
+          <nav>
+            <ul class="menu-item">
+              <li class="item uppercase"><a href="index.html#equipo">Equipo</a></li>
+              <li class="item uppercase"><a href="index.html#who">Quiénes somos</a></li>
+              <li class="item uppercase"><a href="">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="foto">
+
+        <img src="images/grupo-dracarys.jpg" alt="Foto del equipo Dracarys">
+      </div>
+    </div>
+  </header>
+
+  <main id="contacto">
+
+    <div class="principal">
+      <div class="title-main uppercase">
+        <h2>Contacto</h2>
+      </div>
+      <div class="contacto-txt">
+        <p>Página para contacto con nosotras</p>
+      </div>
+      <div class="forms">
+        <h4>Todos los campos marcados con <span class="bright">*</span> son obligatorios.</h4>
+
+        <form action="" method="post">
+
+          <label for="form-name"><p>Nombre completo<span class="bright">*</span></p></label>
+          <input class="form1" type="text" id="form-name" name="name" placeholder="Nombre..." required>
+
+          <div class="organizer_inline">
+
+            <label class="form-mail order_label_mail" for="form-mail"><p>Email<span class="bright">*</span></p></label>
+            <input class="form1 form-mail order_input_mail" type="text" id="form-mail" name="mail" placeholder="nombre.apellidos@mail.com" required>
+
+            <label class="form-tel order_label_tel" for="form-tel"><p>Teléfono</p></label>
+            <input class="form1 form-tel order_input_tel" type="text" id="form-tel" name="tel" placeholder="Ex. 123456789">
+          </div>
+
+          <label for="form-msg"><p>Mensaje <span class="bright">*</span></p></label>
+
+          <textarea class="form1 big" id="form-msg" name="msg" rows="4" placeholder="¿Qué necesitas?" required></textarea>
+
+          <div class="send_container">
+            <input class="uppercase button-send" type="submit" value="Enviar">
+          </div>
+        </form>
+
+      </div>
+
+
     </div>
 
-    <div class="box">
+  </main>
+
+  <footer class="footer_bordertop">
+
+    <div class="principal">
+      <div class="footer">
+        <img src="images/DracarysLogo.png" alt="Logo de Dracarys em tamaño pequeño"><sup> © 2018</sup>
+      </div>
+
       <nav>
-        <ul class="menu-item">
+        <div class="footer-nav">
+          <ul class="menu-item">
             <li class="item uppercase"><a href="index.html#equipo">Equipo</a></li>
             <li class="item uppercase"><a href="index.html#who">Quiénes somos</a></li>
             <li class="item uppercase"><a href="">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-  <div class="foto">
-
-    <img src="images/grupo-dracarys.jpg" alt="Foto del equipo Dracarys">
-  </div>
-    </div>
-</header>
-
-<main id="contacto">
-
-<div class="principal">
-  <div class="title-main uppercase">
-<h2>Contacto</h2>
-</div>
-<div class="contacto-txt">
-  <p>Página para contacto con nosotras</p>
-</div>
-<div class="forms">
-<h4>Todos los campos marcados con <span class="bright">*</span> son obligatorios.</h4>
-
-<form action="" method="post">
-
-  <label for="form-name"><p>Nombre completo<span class="bright">*</span></p></label>
-  <input class="form1" type="text" id="form-name" name="name" placeholder="Nombre..." required>
-
-<div class="organizer_inline">
-
-  <label class="form-mail order_label_mail" for="form-mail"><p>Email<span class="bright">*</span></p></label>
-  <input class="form1 form-mail order_input_mail" type="text" id="form-mail" name="mail" placeholder="nombre.apellidos@mail.com" required>
-
-  <label class="form-tel order_label_tel" for="form-tel"><p>Teléfono</p></label>
-  <input class="form1 form-tel order_input_tel" type="text" id="form-tel" name="tel" placeholder="Ex. 123456789">
-</div>
-
-  <label for="form-msg"><p>Mensaje <span class="bright">*</span></p></label>
-
-  <textarea class="form1 big" id="form-msg" name="msg" rows="4" placeholder="¿Qué necesitas?" required></textarea>
-
-<div class="send_container">
-    <input class="uppercase button-send" type="submit" value="Enviar">
-</div>
-</form>
-
-</div>
-
-
-</div>
-
-</main>
-
-<footer class="footer_bordertop">
-
-<div class="principal">
-  <div class="footer">
-    <img src="images/DracarysLogo.png" alt="Logo de Dracarys em tamaño pequeño"><sup> © 2018</sup>
-  </div>
-
-  <nav>
-    <div class="footer-nav">
-    <ul class="menu-item">
-          <li class="item uppercase"><a href="index.html#equipo">Equipo</a></li>
-          <li class="item uppercase"><a href="index.html#who">Quiénes somos</a></li>
-          <li class="item uppercase"><a href="">Contacto</a></li>
-        </ul>
-    </div>
+          </ul>
+        </div>
 
       </nav>
-    <div class="footer-img">
-      <a href="http://www.adalab.es" target="_blank"><img src="images/AdalabLogo.png" alt="Logo de Adalab"></a>
-    </div>
+      <div class="footer-img">
+        <a href="http://www.adalab.es" target="_blank"><img src="images/AdalabLogo.png" alt="Logo de Adalab"></a>
+      </div>
     </div>
 
-    </footer>
+  </footer>
 
-    </body>
-    </html>
+</body>
+
+</html>

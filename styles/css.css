@@ -29,10 +29,8 @@ Pinta los links de 'gold' al pasar el puntero por cima */
   color: gold !important;
 }
 
-
 /* BODY:
 Caixas (boxes) principales */
-
 
 .principal {
   /* Esta clase es usada en todas las boxes principales
@@ -44,7 +42,6 @@ Caixas (boxes) principales */
   margin: 0px 15px 0px 15px;
 }
 
-
 /* .title {
   text-align: center;
   height: 50px;
@@ -53,13 +50,8 @@ Caixas (boxes) principales */
   align-items: center;
 } */
 
-
-
 /* Estos dos código alteran el logo principal al pasarse
   el ratón por cima :P */
-
-
-
 
 .menu-item {
   list-style: none;
@@ -122,6 +114,7 @@ Caixas (boxes) principales */
   max-width: 636px;
   opacity: 0.8;
 }
+
 .title-main {
   margin-top: 30px;
   text-align: center;
@@ -130,10 +123,11 @@ Caixas (boxes) principales */
   justify-content: center;
   align-items: center;
 }
+
 .principal h2 {
   font-family: 'Rubik', sans-serif;
   margin: 0px;
-  color: rgb(34,160,146);
+  color: rgb(34, 160, 146);
   font-size: 24px;
   font-weight: bold;
   line-height: 45px;
@@ -143,17 +137,9 @@ Caixas (boxes) principales */
 /* BODY:
 Define las propriedades de la caja (box) LEMA */
 
-
-
-
-
 /* Clases específicas de la parte Equipo */
 
-
-
-
 /* Clases específicas de la parte Quiénes somos */
-
 
 /* CONTACTO:
 Clases relacionadas a la página Contacto */
