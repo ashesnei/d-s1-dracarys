@@ -1,6 +1,3 @@
-/*  GLOBAL:
-Estilos que se aplican a toda la página */
-
 body, html {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -10,59 +7,26 @@ body, html {
   text-transform: uppercase;
 }
 
-/* Clase admin para aislar elementos y señalarles
-
-.temp {
-  color: lightgray;
-  font-weight: bolder;
-  border: 1px dotted lightgray;
-  text-align: center;
-  height: 500%;
-}
-
-*/
-
-/*  GLOBAL:
-Pinta los links de 'gold' al pasar el puntero por cima */
-
 .fab:hover, .fas:hover, a:hover {
   color: gold !important;
 }
 
-/* BODY:
-Caixas (boxes) principales */
-
 .principal {
-  /* Esta clase es usada en todas las boxes principales
-    para establecer márgenes y facilitar la organización
-    del contenido interno */
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 0px 15px 0px 15px;
 }
-
-/* .title {
-  text-align: center;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* Estos dos código alteran el logo principal al pasarse
-  el ratón por cima :P */
 
 .menu-item {
   list-style: none;
   display: inline;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 45px;
   list-style: none;
-  margin: 0px;
+  margin: 0 15px 0 15px;
   padding: 0;
 }
 
@@ -133,16 +97,3 @@ Caixas (boxes) principales */
   line-height: 45px;
   text-align: center;
 }
-
-/* BODY:
-Define las propriedades de la caja (box) LEMA */
-
-/* Clases específicas de la parte Equipo */
-
-/* Clases específicas de la parte Quiénes somos */
-
-/* CONTACTO:
-Clases relacionadas a la página Contacto */
-
-/* FOOTER:
-*/

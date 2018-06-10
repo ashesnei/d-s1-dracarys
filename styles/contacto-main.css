@@ -14,14 +14,11 @@
   line-height: 24px;
 }
 
-/* CONTACTO:
-Clases relacionadas al formulario */
-
 .forms {
   flex-direction: column;
   display: flex;
   color: #54585A;
-  width: 100%;
+  max-width: 442px;
 }
 
 .forms h4 {
@@ -46,10 +43,6 @@ Clases relacionadas al formulario */
 #contacto {
   display: flex;
   justify-content: center;
-}
-
-.principal {
-  max-width: 442px;
 }
 
 .form1 {
@@ -98,16 +91,7 @@ input[type=submit] {
 }
 
 @media all and (min-width: 768px) {
-  .principal {
-    width: 442px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  /* FIXME: ALINEAR A LA DERECHA EL BOTON SUBMIT!
-Solo funciona añadiendo un margin right negativo al input
-de -238px al mediaquery min768
-y -397px al mediaquery min1200
- */
+
   .button-send {
     margin: 0;
     width: 206px;
@@ -115,16 +99,11 @@ y -397px al mediaquery min1200
   .form1 {
     width: 442px;
   }
-  input[type=submit] {
-    /* FEO FEO FEO */
-    /* margin-right: -238px; */
-  }
+
 }
 
 @media all and (min-width: 1200px) {
   .principal {
-    width: 601px;
-    max-width: 601px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -134,6 +113,8 @@ y -397px al mediaquery min1200
   .forms {
     flex-direction: column;
     display: flex;
+    width: 601px;
+    max-width: 601px;
   }
   .organizer_inline {
     display: inline-flex;
