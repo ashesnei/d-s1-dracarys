@@ -1,0 +1,39 @@
+.dragonfly {
+  position: fixed;
+  bottom: 0;
+  left: -230px;
+  animation-name: dragonfly;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dragonfly {
+  from {}
+  to {
+    transform: translate(180vw, -500px);
+  }
+}
+
+.dragonfly2 {
+  width: 25vw;
+  min-width: 120px;
+  max-width: 200px;
+  position: fixed;
+  top: 0;
+  left: -320px;
+  animation-name: dragonfly2;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 30s;
+}
+
+@keyframes dragonfly2 {
+  from {}
+  to {
+    transform: translate(180vw, 500px);
+  }
+}
