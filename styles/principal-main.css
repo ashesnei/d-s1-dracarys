@@ -19,6 +19,23 @@
   transform: translateY(-49px);
 }
 
+.equipo-txt {
+
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.description {
+
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
 .box-lema h1 {
     margin: 0px;
     font-size: 18px;
@@ -46,27 +63,32 @@
   text-align: center;
   line-height: 45px;
 }
+.equipoparrafo {
+  max-width: 601px;
+}
 
 .contenedor-triangle {
   display: flex;
   justify-content: center;
-  margin: -40px 0px 40px 0px;
+  margin: 30px 0px -30px 0px;
 }
 
 .triangle {
   width: 0;
   height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid white;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid white;
   margin-bottom: -40px;
   z-index: 0px;
 }
 
-#about {
+.about {
   background: #efefef;
-  margin: 30px -15px 0px -15px;
-  padding: 30px 0px 45px 0px;
+  margin: 30px 0px 0px -15px;
+  padding: 30px 15px 45px 15px;
+  width: 95vw;
+
 }
 
 .who {
@@ -140,33 +162,38 @@
 .equipo-txt {
   padding-left: 45px;
   padding-right: 45px;
+  flex-direction: row;
 }
+
+.description {
+
+    flex-direction: column;
+
+}
+
 .ultimoparrafo {
   margin-bottom: 60px;
 }
 
 .fyd {
-  border: 1px solid red;
   width: 50%;
   padding: 0 15px 0 15px;
+  height: 250px;
 }
 
-#about {
-  background: #efefef;
-  margin: 30px 0px 0px -60px;
-  padding: 30px 0px 45px 0px;
+.fyd-fortalezas {
+  margin-right: 30px;
 }
 
 .about {
-  display: flex;
+  background: #efefef;
+
   width: 100vw;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 0 0 -15px;
 }
 
 .contenedor-triangle {
-position: absolute;
-left: 47%;
+margin-bottom: 0px;
 }
 
 .member {
@@ -216,7 +243,7 @@ left: 47%;
 }
 /* CSS PARA TABLET */
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 900px) {
 
 .photoprofile {
   margin-left: 45px;
@@ -228,13 +255,16 @@ left: 47%;
   max-width: 439px;
   align-self: center;
 }
+
 .equipoparrafo {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   width: 601px;
-  margin-left: 22vw;
+  /* margin-left: 22vw;
+  margin: 0px; */
 }
+
 .dracarys {
   display: inline;
 }
