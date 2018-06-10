@@ -58,7 +58,7 @@ Clases relacionadas al formulario */
   min-height: 15px;
   text-align: left;
   font-size: 16px;
-  width: 90%;
+  width: 100%;
   padding: 15px;
   margin: 5px 0px 15px 0px;
   line-height: 22px;
@@ -79,7 +79,6 @@ color: #54585A;
 input[type=submit] {
   background: rgb(34,160,146);
   height: 45px;
-  width: 100%;
   border-radius: 5px;
   text-align: center;
   color: white;
@@ -89,9 +88,13 @@ input[type=submit] {
   font-weight: 400;
 }
 
-.button-send {
+.send_container {
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
+}
+
+.button-send {
+    text-align: right;
   width: 100%;
 }
 
@@ -105,16 +108,20 @@ input[type=submit] {
 
 /* FIXME: ALINEAR A LA DERECHA EL BOTON SUBMIT!
 Solo funciona añadiendo un margin right negativo al input
-de -385px al mediaquery min768
-y -790px al mediaquery min1200
+de -238px al mediaquery min768
+y -397px al mediaquery min1200
  */
 .button-send {
   margin: 0;
   width: 206px;
 }
 
+.form1 {
+  width: 442px;
+}
+
 input[type=submit] { /* FEO FEO FEO */
-  margin-right: -385px;
+  /* margin-right: -238px; */
 }
 
 }
@@ -158,9 +165,5 @@ input[type=submit] { /* FEO FEO FEO */
 .order_input_mail { order: 3; margin-right: 44px; }
 .order_label_tel { order: 2; }
 .order_input_tel { order: 4; }
-
-input[type=submit] { /* FEO FEO FEO */
-  margin-right: -790px;
-}
 
 }
