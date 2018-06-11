@@ -8,7 +8,7 @@
 .adjust-header-outter {
   /* Esta clase es para ajustar el encabezado
   el ancho y alto del box. */
-  height: 94vw;
+  /*height: 94vw;*/
   max-height: 600px;
 }
 
