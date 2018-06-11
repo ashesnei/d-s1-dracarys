@@ -21,6 +21,54 @@
   justify-content: flex-end;
 }
 
+
+.menu-item {
+  list-style: none;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  list-style: none;
+  margin: 0 15px 0 15px;
+  padding: 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* estos códigos son para producir un offset en los
+  links, para que lleven exactamente el inicio
+  del contenido.
+  Pero no están funcionando por algún conflicto con
+  la position de los íconos de los perfiles.
+  Para probarlos, cambiar el <nav> para:
+
+  <nav>
+    <ul class="menu-item">
+        <li class="item uppercase"><a href="#equipo-target">Equipo</a></li>
+        <li class="item uppercase"><a href="#who-target">Quiénes somos</a></li>
+        <li class="item uppercase"><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+#equipo, #who {
+  position: relative;
+}
+
+#equipo a, #who a {
+  position: absolute;
+  left: 0px;
+  top: -35px;
+}
+*/
+
 .dracarys {
   height: 50px;
   width: auto;
