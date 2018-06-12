@@ -3,12 +3,12 @@
 }
 
 .foto_equipo {
-  background-image: url('../images/grupo-dracarys.png');
-  background-size: 300px;
+  background-image: url('../images/bg-contacto.jpg');
+  background-size: 170%;
   background-repeat: no-repeat;
-  background-position: left 50% bottom -23px;
+  background-position: right bottom;
   height: 300px;
-  background-color: #FFF;
+  background-color: #1D1C21;
 }
 
 .contacto_h2 {
@@ -109,6 +109,28 @@ input[type=submit] {
   width: 100%;
 }
 
+@media all and (min-width: 380px) {
+
+.foto_equipo {
+  background-size: 140%;
+}
+
+}
+
+@media all and (min-width: 530px) {
+
+.foto_equipo {
+  background-size: 100%;
+}
+}
+
+@media all and (min-width: 720px) {
+
+.foto_equipo {
+  background-size: 80%;
+}
+}
+
 @media all and (min-width: 768px) {
 
   .contacto-txt {
@@ -117,9 +139,7 @@ input[type=submit] {
   }
 
   .foto_equipo {
-    background-size: 600px;
-    background-position: left 50% bottom -50px;
-    height: 421px;
+    background-size: 90%;
   }
 
   .button-send {
@@ -136,6 +156,13 @@ input[type=submit] {
 
 }
 
+@media all and (min-width: 720px) {
+
+.foto_equipo {
+  background-size: 70%;
+}
+}
+
 @media all and (min-width: 1200px) {
 
   .contacto-txt {
@@ -149,9 +176,8 @@ input[type=submit] {
 }
 
   .foto_equipo {
-    background-size: 800px;
-    background-position: left 50% bottom -70px;
-    height: 550px;
+    background-size: 80%;
+    height: 400px;
   }
 
   .principal {
