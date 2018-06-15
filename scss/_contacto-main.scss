@@ -3,7 +3,7 @@
 }
 
 .foto_equipo {
-  background-image: url('../images/bg-contacto.jpg');
+  background-image: url("../images/bg-contacto.jpg");
   background-size: 170%;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -24,7 +24,7 @@
 }
 
 .contacto-txt {
-  margin: 15px 15px 0 15px;
+  margin: 15px 15px 0;
 }
 
 .contacto_p {
@@ -33,7 +33,7 @@
   color: $gris_oscuro;
   font-size: $large;
   line-height: $largest;
-    max-width: 442px;
+  max-width: 442px;
 }
 
 .forms {
@@ -42,20 +42,20 @@
   color: $gris_oscuro;
   width: 100%;
   max-width: 442px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .forms_info {
   text-align: center;
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: normal;
-  margin: 30px 0px 60px 0px;
+  margin: 30px 0 60px;
 }
 
 .forms_labels {
   text-align: left;
   font-size: 14px;
-  margin: 0px;
+  margin: 0;
   line-height: 19px;
 }
 
@@ -71,7 +71,7 @@
   font-size: $normal;
   width: 100%;
   padding: 15px;
-  margin: 5px 0px 15px 0px;
+  margin: 5px 0 15px;
   line-height: $xx-large;
 }
 
@@ -83,7 +83,8 @@
   color: $gris_claro;
 }
 
-input[type=text], select {
+input[type=text],
+select {
   color: $gris_oscuro;
 }
 
@@ -94,7 +95,7 @@ input[type=submit] {
   text-align: center;
   color: $blanco;
   cursor: pointer;
-  margin: 15px 0px 60px 0px;
+  margin: 15px 0 60px;
   font-size: $normal;
   font-weight: 400;
 }
@@ -108,33 +109,24 @@ input[type=submit] {
   text-align: right;
   width: 100%;
 }
-
 @media all and (min-width: 380px) {
-
-.foto_equipo {
-  background-size: 140%;
+  .foto_equipo {
+    background-size: 140%;
+  }
 }
-
-}
-
 @media all and (min-width: 530px) {
-
-.foto_equipo {
-  background-size: 100%;
+  .foto_equipo {
+    background-size: 100%;
+  }
 }
-}
-
 @media all and (min-width: 720px) {
-
-.foto_equipo {
-  background-size: 80%;
+  .foto_equipo {
+    background-size: 80%;
+  }
 }
-}
-
 @media all and (min-width: 768px) {
-
   .contacto-txt {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     width: 442px;
   }
 
@@ -146,34 +138,30 @@ input[type=submit] {
     margin: 0;
     width: 206px;
   }
+
   .form1 {
     width: 100%;
   }
 
-.forms {
-  padding: 0;
+  .forms {
+    padding: 0;
+  }
 }
-
-}
-
 @media all and (min-width: 720px) {
-
-.foto_equipo {
-  background-size: 70%;
+  .foto_equipo {
+    background-size: 70%;
+  }
 }
-}
-
 @media all and (min-width: 1200px) {
-
   .contacto-txt {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     width: 601px;
     max-width: 601px;
   }
 
-.contacto_p {
-      max-width: 601px;
-}
+  .contacto_p {
+    max-width: 601px;
+  }
 
   .foto_equipo {
     background-size: 80%;
@@ -184,9 +172,11 @@ input[type=submit] {
     margin-left: 0;
     margin-right: 0;
   }
+
   .form1 {
     width: 100%;
   }
+
   .forms {
     flex-direction: column;
     display: flex;
@@ -200,25 +190,31 @@ input[type=submit] {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
   .form-mail {
     width: 395px;
     box-sizing: border-box;
   }
+
   .form-tel {
     width: 162px;
     box-sizing: border-box;
   }
+
   .order_label_mail {
     order: 1;
     margin-right: 44px;
   }
+
   .order_input_mail {
     order: 3;
     margin-right: 44px;
   }
+
   .order_label_tel {
     order: 2;
   }
+
   .order_input_tel {
     order: 4;
   }

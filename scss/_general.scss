@@ -1,6 +1,7 @@
-body, html {
-  margin: 0px;
-  font-family: $fonte_principal
+body,
+html {
+  margin: 0;
+  font-family: $fonte_principal;
 }
 
 .uppercase {
@@ -15,7 +16,7 @@ body, html {
 
 .principal h2 {
   font-family: $fonte_titulo;
-  margin: 0px;
+  margin: 0;
   color: $verde_oscuro;
   font-size: $largest;
   font-weight: bold;
@@ -23,6 +24,8 @@ body, html {
   text-align: center;
 }
 
-.fab:hover, .fas:hover, a:hover {
-  color: $color_hover; 
+.fab:hover,
+.fas:hover,
+a:hover {
+  color: $color_hover;
 }

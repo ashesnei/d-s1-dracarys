@@ -21,7 +21,6 @@
   justify-content: flex-end;
 }
 
-
 .menu-item {
   list-style: none;
   display: inline;
@@ -31,7 +30,7 @@
   align-items: center;
   height: 45px;
   list-style: none;
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
   padding: 0;
 }
 
@@ -42,7 +41,6 @@
   font-weight: 600;
   font-family: $fonte_titulo;
 }
-
 /* estos códigos son para producir un offset en los
   links, para que lleven exactamente el inicio
   del contenido.
@@ -68,7 +66,6 @@
   top: -35px;
 }
 */
-
 .dracarys {
   height: 50px;
   width: auto;
@@ -84,7 +81,7 @@
 }
 
 .outter-header:hover img {
-  transition: height ease .25s;
+  transition: height ease 0.25s;
   height: 90px;
 }
 
@@ -102,7 +99,6 @@
   height: 45px;
   background: $verde_claro_transparencia;
 }
-
 @media all and (min-width:768px) {
   .outter-header {
     display: inline-flex;
@@ -110,13 +106,16 @@
     height: 60px;
     align-items: center;
   }
+
   .header-menu-item {
     justify-content: flex-end;
     margin-right: 45px;
   }
+
   .item {
     margin: 0 0 0 20px;
   }
+
   .box {
     height: 60px;
     background-color: $verde_oscuro_transparencia;
@@ -125,20 +124,25 @@
     justify-content: flex-end;
     padding-right: 45px;
   }
+
   .boxlogo {
     padding-left: 45px;
     height: 60px;
   }
+
   .outter-header:hover {
     height: 100px;
   }
+
   .outter-header:hover .box {
     height: 100px;
   }
+
   .outter-header:hover .dracarys {
-    transition: height ease .25s;
+    transition: height ease 0.25s;
     height: 90px;
   }
+
   .outter-header:hover .boxlogo {
     height: 100px;
   }
@@ -146,11 +150,13 @@
     .boxlogo {
       padding-left: 138px;
     }
+
     .box {
       padding-right: 138px;
     }
   }
+
   .header-menu-item {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }

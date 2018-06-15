@@ -8,9 +8,9 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
 @keyframes dragonfly {
   from {}
+
   to {
     transform: translate(180vw, -500px);
   }
@@ -30,9 +30,9 @@
   animation-fill-mode: forwards;
   animation-delay: 30s;
 }
-
 @keyframes dragonfly2 {
   from {}
+
   to {
     transform: translate(180vw, 500px);
   }
