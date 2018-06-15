@@ -87,13 +87,15 @@
   text-align: left;
   font-size: 16px;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   margin: 5px 0 15px;
   line-height: 22px;
 }
 
 .big {
   min-height: 70px;
+  max-height: 105px;
+  margin-bottom: 25px;
 }
 
 ::-webkit-input-placeholder {
@@ -123,7 +125,7 @@ input[type=submit] {
   text-align: center;
   color: #ffffff;
   cursor: pointer;
-  margin: 15px 0 60px;
+  margin-bottom: 60px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -224,7 +226,7 @@ input[type=submit] {
 
 .footer_adalab {
   width: 115.9px;
-  height: 45px;
+  height: 40px;
   margin-bottom: 45px;
 }
 
@@ -889,6 +891,10 @@ body,html {
 }
 
 @media all and (min-width: 1200px) {
+  input[type=submit] {
+    margin-bottom: 120px;
+  }
+
   .contacto-txt {
     margin: 15px 0 0;
     width: 601px;
