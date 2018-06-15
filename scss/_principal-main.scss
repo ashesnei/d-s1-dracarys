@@ -1,14 +1,13 @@
 .foto {
   background-image: url("../images/temp-main-img.jpeg");
-  background-position: 0 90%;
+  background-position: 0 40%;
   background-size: 120%;
   background-repeat: no-repeat;
-  height: 282px;
+  height: 421px;
   background-color: $fondo_foto;
 }
 
 .title-main {
-  margin-top: 30px;
   text-align: center;
   flex-direction: column;
   display: flex;
@@ -21,13 +20,23 @@
 }
 
 .box-lema {
-  background: $blanco_transparencia;
+  background: $blanco;
   height: auto;
   width: auto;
   padding: 15px;
   position: relative;
-  transform: translateY(-49px);
+  transform: translateY(-34px);
   margin: 0 15px;
+
+
+  .equipo-txt h2 {
+    margin-top: 35px;
+
+  }
+
+  @media all and (min-width: 768px) {
+    background: $blanco_transparencia;
+  }
 }
 
 .equipo-txt {
@@ -46,7 +55,7 @@
 .box-lema h1 {
   margin: 0;
   font-size: $large;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 25px;
   text-align: center;
 }
@@ -56,10 +65,8 @@
   color: $gris_oscuro;
   font-size: $normal;
   line-height: $largest;
-}
-
-.equipo-txt h2 {
-  margin-top: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .equipo-txt h3 {
@@ -94,7 +101,6 @@
 .about {
   background: $gris_de_fondo;
   padding: 30px 15px 45px;
-  width: 95vw;
 }
 
 .who {
@@ -102,7 +108,7 @@
 }
 
 .who .title-main {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .photoprofile {
@@ -138,6 +144,10 @@
   list-style: none;
   color: $verde_oscuro;
   margin: 0;
+}
+
+.fyd-fortalezas {
+  margin-bottom: 30px;
 }
 
 .fab,
