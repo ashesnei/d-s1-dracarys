@@ -214,7 +214,18 @@
   .who {
     padding: 0 45px;
   }
-
+  .members {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+    .member {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      margin-bottom: 30px;
+      padding: 0px;
+    }
   .member {
     display: flex;
     align-items: flex-start;
