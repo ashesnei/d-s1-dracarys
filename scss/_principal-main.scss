@@ -4,7 +4,7 @@
   background-size: 120%;
   background-repeat: no-repeat;
   height: 282px;
-  background-color: #101010;
+  background-color: $fondo_foto;
 }
 
 .title-main {
@@ -21,7 +21,7 @@
 }
 
 .box-lema {
-  background: rgba(255, 255, 255, .9);
+  background: $blanco_transparencia;
   height: auto;
   width: auto;
   padding: 15px;
@@ -45,7 +45,7 @@
 
 .box-lema h1 {
   margin: 0px;
-  font-size: 18px;
+  font-size: $large;
   font-weight: 500;
   line-height: 25px;
   text-align: center;
@@ -53,9 +53,9 @@
 
 .equipo-txt p {
   text-align: center;
-  color: #54585A;
-  font-size: 16px;
-  line-height: 24px;
+  color: $gris_oscuro;
+  font-size: $normal;
+  line-height: $largest;
 }
 
 .equipo-txt h2 {
@@ -63,10 +63,10 @@
 }
 
 .equipo-txt h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: $fonte_titulo;
   margin: 0px;
-  color: #099D8D;
-  font-size: 22px;
+  color: $verde_oscuro;
+  font-size: $xx-large;
   font-weight: bold;
   text-align: center;
   line-height: 45px;
@@ -87,12 +87,12 @@
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-top: 30px solid white;
+  border-top: 30px solid $blanco;
   margin-bottom: 10px;
 }
 
 .about {
-  background: #efefef;
+  background: $gris_de_fondo;
   padding: 30px 15px 45px 15px;
   width: 95vw;
 }
@@ -106,7 +106,7 @@
 }
 
 .photoprofile {
-  border: 5px solid #dcdcdc;
+  border: 5px solid $gris_claro;
   width: 180px;
   height: 180px;
   border-radius: 4px;
@@ -119,16 +119,16 @@
 
 .member h3 {
   margin: 0px 0px 15px 0px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-family: $fonte_titulo;
+  font-size: $x-large;
   line-height: 45px;
 }
 
 .member p {
   font-family: 'Open Sans', sans-serif;
-  color: #54585A;
-  font-size: 16px;
-  line-height: 24px;
+  color: $gris_oscuro;
+  font-size: $normal;
+  line-height: $largest;
 }
 
 .listaiconos {
@@ -138,12 +138,12 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  color: #099d8d;
+  color: $verde_oscuro;
   margin: 0;
 }
 
 .fab, .fas {
-  color: #099d8d;
+  color: $verde_oscuro;
 }
 
 .listaiconos li::before {
@@ -153,7 +153,7 @@
 }
 
 .border-bottom {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid $gris_claro;
 }
 
 .listaiconos li:first-child::before {
@@ -195,7 +195,7 @@
     margin-right: 30px;
   }
   .about {
-    background: #efefef;
+    background: $gris_de_fondo;
     width: 100%;
     margin: -30px 0 0 0;
     padding: 30px 0 45px 0;

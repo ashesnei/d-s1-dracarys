@@ -1,14 +1,10 @@
 body, html {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $fonte_principal
 }
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.fab:hover, .fas:hover, a:hover {
-  color: gold !important;
 }
 
 .principal {
@@ -18,11 +14,15 @@ body, html {
 }
 
 .principal h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: $fonte_titulo;
   margin: 0px;
-  color: rgb(34, 160, 146);
-  font-size: 24px;
+  color: $verde_oscuro;
+  font-size: $largest;
   font-weight: bold;
   line-height: 45px;
   text-align: center;
+}
+
+.fab:hover, .fas:hover, a:hover {
+  color: $color_hover; 
 }

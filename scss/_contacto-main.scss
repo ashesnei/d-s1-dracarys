@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 300px;
-  background-color: #1D1C21;
+  background-color: $fondo_foto;
 }
 
 .contacto_h2 {
@@ -30,16 +30,16 @@
 .contacto_p {
   text-align: center;
   margin: 0;
-  color: #54585A;
-  font-size: 16px;
-  line-height: 24px;
+  color: $gris_oscuro;
+  font-size: $large;
+  line-height: $largest;
     max-width: 442px;
 }
 
 .forms {
   flex-direction: column;
   display: flex;
-  color: #54585A;
+  color: $gris_oscuro;
   width: 100%;
   max-width: 442px;
   padding: 0 15px 0 15px;
@@ -60,7 +60,7 @@
 }
 
 .bright {
-  color: rgb(34, 160, 146);
+  color: $verde_claro;
   font-size: 1rem;
 }
 
@@ -68,11 +68,11 @@
   border: 1px solid lightgray;
   min-height: 15px;
   text-align: left;
-  font-size: 16px;
+  font-size: $normal;
   width: 100%;
   padding: 15px;
   margin: 5px 0px 15px 0px;
-  line-height: 22px;
+  line-height: $xx-large;
 }
 
 .big {
@@ -80,22 +80,22 @@
 }
 
 ::placeholder {
-  color: lightgray;
+  color: $gris_claro;
 }
 
 input[type=text], select {
-  color: #54585A;
+  color: $gris_oscuro;
 }
 
 input[type=submit] {
-  background: rgb(34, 160, 146);
+  background: $verde_claro;
   height: 45px;
   border-radius: 5px;
   text-align: center;
-  color: white;
+  color: $blanco;
   cursor: pointer;
   margin: 15px 0px 60px 0px;
-  font-size: 16px;
+  font-size: $normal;
   font-weight: 400;
 }
 

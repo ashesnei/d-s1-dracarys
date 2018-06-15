@@ -37,10 +37,10 @@
 
 .menu-item a {
   text-decoration: none;
-  font-size: 15px;
-  color: white;
+  font-size: $small;
+  color: $blanco;
   font-weight: 600;
-  font-family: 'Rubik', sans-serif;
+  font-family: $fonte_titulo;
 }
 
 /* estos códigos son para producir un offset en los
@@ -91,7 +91,7 @@
 .boxlogo {
   height: 60px;
   width: auto;
-  background: rgba(34, 160, 146, .95);
+  background: $verde_oscuro_transparencia;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -100,7 +100,7 @@
 .box {
   width: 100%;
   height: 45px;
-  background: rgba(57, 218, 200, .9);
+  background: $verde_claro_transparencia;
 }
 
 @media all and (min-width:768px) {
@@ -119,7 +119,7 @@
   }
   .box {
     height: 60px;
-    background-color: rgba(34, 160, 146, .95);
+    background-color: $verde_oscuro_transparencia;
     display: flex;
     align-items: center;
     justify-content: flex-end;

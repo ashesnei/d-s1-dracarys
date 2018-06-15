@@ -1,7 +1,7 @@
 {
 	"scss": {
 		"src": "scss/**/*.scss",
-		"dest": "styles/css"
+		"dest": "styles"
 	},
 	"js": {
 		"src": [
