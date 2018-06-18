@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500');
+
 // colors
 $verde_oscuro: #099d8d;
 $verde_oscuro_transparencia: rgba(34, 160, 146, .95);
@@ -6,7 +8,7 @@ $verde_claro_transparencia: rgba(57, 218, 200, .9);
 $blanco: #ffffff;
 $blanco_transparencia: rgba(255, 255, 255, .9);
 $negro: #000000;
-$gris_oscuro: #54585a;
+$gris_oscuro: #54585A;
 $gris_claro: #b8b8b9;
 $gris_de_fondo: #f1f1f1;
 $fondo_foto: #1D1C21;
@@ -22,3 +24,7 @@ $large: 18px;
 $normal: 16px;
 $small: 15px;
 $smallest: 14px;
+// font-weight
+$regular: 400;
+$medium: 500;
+$semibold: 600;

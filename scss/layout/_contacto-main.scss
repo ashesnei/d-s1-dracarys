@@ -26,8 +26,10 @@
 
 .contacto_h2 {
   margin: 0;
-  font-family: $fonte_principal;
+  font-family: $fonte_titulo;
   color: $verde_oscuro;
+  font-size: $largest;
+  font-weight: $medium;
 }
 
 .principal_contacto {
@@ -50,7 +52,7 @@
   text-align: center;
   margin: 0;
   color: $gris_oscuro;
-  font-size: $large;
+  font-size: $normal;
   line-height: $largest;
   max-width: 442px;
 }
@@ -66,14 +68,16 @@
 
 .forms_info {
   text-align: center;
+  font-family: $fonte_principal;
   font-size: 0.7em;
-  font-weight: normal;
+  font-weight: $regular;
   margin: 30px 0 60px;
 }
 
 .forms_labels {
   text-align: left;
-  font-size: 14px;
+  font-size: $smallest;
+  color: $gris_oscuro;
   margin: 0;
   line-height: 19px;
 }

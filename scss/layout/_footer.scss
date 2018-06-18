@@ -23,17 +23,16 @@
 .footer_menu_item {
   list-style: none;
   text-align: center;
-  line-height: $largest;
   padding: 0;
   margin: 20px 0 30px;
 }
 
 .footer_link {
   text-decoration: none;
-  font-size: $small;
+  font-size: $smallest;
+  font-family: $fonte_principal;
+  font-weight: $semibold;
   color: $gris_oscuro;
-  font-weight: 600;
-  font-family: $fonte_titulo;
   display: block;
 }
 

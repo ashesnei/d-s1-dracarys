@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500");
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -16,8 +18,10 @@
 
 .contacto_h2 {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #099d8d;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .principal_contacto {
@@ -45,8 +49,8 @@
 .contacto_p {
   text-align: center;
   margin: 0;
-  color: #54585a;
-  font-size: 18px;
+  color: #54585A;
+  font-size: 16px;
   line-height: 24px;
   max-width: 442px;
 }
@@ -59,7 +63,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #54585a;
+  color: #54585A;
   width: 100%;
   max-width: 442px;
   padding: 0 15px;
@@ -67,14 +71,16 @@
 
 .forms_info {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.7em;
-  font-weight: normal;
+  font-weight: 400;
   margin: 30px 0 60px;
 }
 
 .forms_labels {
   text-align: left;
   font-size: 14px;
+  color: #54585A;
   margin: 0;
   line-height: 19px;
 }
@@ -118,7 +124,7 @@
 }
 
 input[type=text],select {
-  color: #54585a;
+  color: #54585A;
 }
 
 input[type=submit] {
@@ -209,17 +215,16 @@ input[type=submit] {
 .footer_menu_item {
   list-style: none;
   text-align: center;
-  line-height: 24px;
   padding: 0;
   margin: 20px 0 30px;
 }
 
 .footer_link {
   text-decoration: none;
-  font-size: 15px;
-  color: #54585a;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-family: "Rubik", sans-serif;
+  color: #54585A;
   display: block;
 }
 
@@ -293,7 +298,7 @@ input[type=submit] {
   text-decoration: none;
   font-size: 15px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Rubik", sans-serif;
 }/* estos códigos son para producir un offset en los
   links, para que lleven exactamente el inicio
@@ -436,16 +441,17 @@ input[type=submit] {
 
 .box-lema h1 {
   margin: 0;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 600;
   line-height: 25px;
   text-align: center;
 }
 
 .equipo-txt p {
   text-align: center;
-  color: #54585a;
+  color: #54585A;
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px;
   margin-top: 0;
   margin-bottom: 0;
@@ -456,7 +462,7 @@ input[type=submit] {
   margin: 0;
   color: #099d8d;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   line-height: 45px;
 }
@@ -512,13 +518,14 @@ input[type=submit] {
 .member h3 {
   margin: 0 0 15px;
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 45px;
 }
 
 .member p {
-  font-family: 'Open Sans', sans-serif;
-  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+  color: #54585A;
   font-size: 16px;
   line-height: 24px;
 }
@@ -582,7 +589,7 @@ body,html {
   font-family: "Rubik", sans-serif;
   color: #099d8d;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 45px;
   text-align: center;
   margin: 30px 0 15px;
@@ -1061,6 +1068,14 @@ body,html {
     max-width: 439px;
     -ms-flex-item-align: center;
     align-self: center;
+  }
+
+  .description-right {
+    margin-left: 45px;
+  }
+
+  .description-left {
+    margin-right: 45px;
   }
 
   .equipoparrafo {
