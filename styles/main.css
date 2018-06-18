@@ -789,7 +789,6 @@ body,html {
   .fyd {
     width: 50%;
     padding: 0 15px;
-    height: 250px;
   }
 
   .fyd-fortalezas {
@@ -801,7 +800,7 @@ body,html {
     background: #f1f1f1;
     width: 100%;
     margin: -30px 0 0;
-    padding: 30px 0 20px;
+    padding: 0px 0 60px;
   }
 
   .contenedor-triangle {
@@ -1086,11 +1085,11 @@ body,html {
   }
 
   .about {
-    padding: 30px 0 45px;
+    padding: 0px 0 60px;
   }
 
   .who {
-    padding: 0 138px;
+    padding: 45px 138px;
   }
 
   .member {
