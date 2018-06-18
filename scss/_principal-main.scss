@@ -5,6 +5,28 @@
   background-repeat: no-repeat;
   height: 421px;
   background-color: $fondo_foto;
+
+@media all and (min-width: 360px) {
+  background-position: 0 bottom;
+}
+@media all and (min-width: 600px) {
+  background-position: left 0  bottom 20%;
+}
+@media all and (min-width: 850px) {
+  background-size: 105%;
+  background-position: left 0  center 30%;
+  height: 50vw;
+  max-height: 550px;
+}
+@media all and (min-width: 1050px) {
+  // background-size: 110%;
+  background-position: left 0  bottom 20%;
+}
+@media all and (min-width: 1200px) {
+  // background-size: 110%;
+    background-position: left 0 bottom 20%;
+    min-height: 550px;
+  }
 }
 
 .title-main {
@@ -311,12 +333,6 @@
     margin-right: 0;
     width: 278px;
     height: 278px;
-  }
-
-  .foto {
-    background-position: 0 85%;
-    background-size: 120%;
-    height: 550px;
   }
 
   .description-member {

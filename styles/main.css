@@ -589,6 +589,12 @@ body,html {
   color: #FFD700;
 }
 
+@media all and (min-width: 360px) {
+  .foto {
+    background-position: 0 bottom;
+  }
+}
+
 @media all and (min-width: 380px) {
   .foto_equipo {
     background-size: 140%;
@@ -598,6 +604,12 @@ body,html {
 @media all and (min-width: 530px) {
   .foto_equipo {
     background-size: 100%;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .foto {
+    background-position: left 0  bottom 20%;
   }
 }
 
@@ -916,6 +928,21 @@ body,html {
   }
 }
 
+@media all and (min-width: 850px) {
+  .foto {
+    background-size: 105%;
+    background-position: left 0  center 30%;
+    height: 50vw;
+    max-height: 550px;
+  }
+}
+
+@media all and (min-width: 1050px) {
+  .foto {
+    background-position: left 0  bottom 20%;
+  }
+}
+
 @media all and (min-width: 1200px) {
   input[type=submit] {
     margin-bottom: 120px;
@@ -1018,17 +1045,16 @@ body,html {
     margin: 25px 138px 0 0;
   }
 
+  .foto {
+    background-position: left 0 bottom 20%;
+    min-height: 550px;
+  }
+
   .photoprofile {
     margin-left: 0;
     margin-right: 0;
     width: 278px;
     height: 278px;
-  }
-
-  .foto {
-    background-position: 0 85%;
-    background-size: 120%;
-    height: 550px;
   }
 
   .description-member {
