@@ -915,10 +915,6 @@ body,html {
     width: 206px;
     height: 206px;
   }
-
-  .principal h2 {
-    margin: 0;
-  }
 }
 
 @media all and (min-width: 768px) and (min-width: 1200px) {
