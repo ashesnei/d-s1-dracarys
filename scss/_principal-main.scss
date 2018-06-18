@@ -209,8 +209,7 @@
   }
 
   .equipo-txt {
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 22px 45px 0;
     flex-direction: row;
   }
 
@@ -230,51 +229,50 @@
 
   .fyd-fortalezas {
     margin-right: 30px;
+    margin-bottom: 0;
   }
 
   .about {
     background: $gris_de_fondo;
     width: 100%;
     margin: -30px 0 0;
-    padding: 30px 0 45px;
+    padding: 30px 0 20px;
   }
 
   .contenedor-triangle {
     margin-bottom: 0;
+    margin-top: 60px;
   }
 
   .who {
-    padding: 0 45px;
+    padding: 45px 45px 0 45px;
   }
   .members {
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 10% 1fr 10%;
   }
-    .member {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
-      margin-bottom: 30px;
-      padding: 0px;
-    }
+
   .member {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 60px;
     padding: 0;
+    // border: 1px solid red;
   }
 
   .description-member {
     text-align: left;
     max-width: 65vw;
     align-self: center;
+    // padding-bottom: 15px;
   }
 
   .listaiconos {
     justify-content: left;
-    padding: 15px 0 0;
+    padding: 0px;
     transform: translateX(-20px);
   }
 
@@ -288,12 +286,12 @@
 
   .description-right {
     text-align: left;
-    margin-left: 45px;
+    margin-left: 30px;
   }
 
   .description-left {
     text-align: right;
-    margin-right: 45px;
+    margin-right: 30px;
   }
 
   .fyd {
@@ -325,6 +323,7 @@
   .photoprofile {
     width: 206px;
     height: 206px;
+    // transform: translateY(10px);
   }
 }
 @media all and (min-width: 1200px) {
