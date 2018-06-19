@@ -775,7 +775,7 @@ body,html {
   }
 
   .equipo-txt {
-    padding: 22px 45px 0;
+    padding: 0 45px 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -816,7 +816,7 @@ body,html {
   }
 
   .who {
-    padding: 45px 45px 0 45px;
+    padding: 0 45px 0 45px;
   }
 
   .members {
@@ -1100,7 +1100,7 @@ body,html {
   }
 
   .who {
-    padding: 45px 138px;
+    padding: 0px 138px;
   }
 
   .member {
